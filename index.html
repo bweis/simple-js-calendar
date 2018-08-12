@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <title>Ben Weis' Simple CALA Calendar</title>
+    <script type='text/javascript' src='js/calaCalendar.js'></script>
+    <link rel='stylesheet' href='css/styles.css'>
+</head>
+<body>
+<div style='display:flex;justify-content:center;align-items:center;flex-direction: column'>
+    <!--Default-->
+    <div class='auto-cala-calendar'></div>
+
+    <br>
+    <br>
+    <br>
+    <h3>With language set to Spanish</h3>
+    <!--With changed language [en, es]-->
+    <div class='auto-cala-calendar' data-language='es'></div>
+
+    <br>
+    <br>
+    <br>
+    <h3>With first day of the week set to Monday</h3>
+    <!--with changed first day of week [Monday | Sunday]-->
+    <div class='auto-cala-calendar' data-fdotw='Monday'></div>
+
+    <br>
+    <br>
+    <br>
+    <h3>With date initialized to Jan 1st 2000</h3>
+    <!--with changed initial date [any valid dateString]-->
+    <div class='auto-cala-calendar' data-displayed-date='Jan 1 2000'></div>
+</div>
+</body>
+</html>
